@@ -1,0 +1,1000 @@
+  282  git checkout history 
+  283  git status
+  284  git log
+  285  cat README.md 
+  286  ls -a
+  287  git branch
+  288  rm README.md 
+  289  ls -a
+  290  git status
+  291  echo "booya" > README.md
+  292  git status
+  293  git add README.md 
+  294  git status
+  295  git commit -m "rewrote readme"
+  296  git status
+  297  git checkout master
+  298  git branch
+  299  git status
+  300  ls
+  301  git log
+  302  git checkout milkshake-flavours 
+  303  ls
+  304  git log
+  305  git checkout history 
+  306  ls
+  307  git log
+  308  git checkout master
+  309  git branch
+  310  git merge milkshake-flavours 
+  311  git ls
+  312  ls
+  313  git branch
+  314  git log
+  315  ls
+  316  git checkout history 
+  317  ls
+  318  git checkout milkshake-flavours 
+  319  ls
+  320  git branch
+  321  git checkout history 
+  322  git branch
+  323  git merge master
+  324  git log
+  325  git checkout master
+  326  git branch
+  327  git checkout 0d00bf2ee6e33d29a2bf35ccc798d05593f150c7
+  328  git status
+  329  less README.md 
+  330  git add README.md 
+  331  git status
+  332  git commit -m "Resolve conflict"
+  333  git status
+  334  git branch
+  335  git merge master
+  336  less README.md 
+  337  git checkout master
+  338  less README.md 
+  339  git status
+  340  git merge history
+  341  git status
+  342  less README.md 
+  343  git branch 
+  344  git merge history
+  345  less README.md 
+  346  git checkout history
+  347  git status
+  348  less README.md 
+  349  git log
+  350  git branch
+  351  git status
+  352  git checkout milkshake-flavours 
+  353  less README.md 
+  354  git checkout master
+  355  git log
+  356  nano README.md 
+  357  less README.md 
+  358  nano README.md 
+  359  git status
+  360  git add README.md 
+  361  git commit -m "Changed README.md to avoid conflict"
+  362  git log 
+  363  git checkout history
+  364  nano README.md 
+  365  less README.md 
+  366  git add README.md 
+  367  git status
+  368  git commit -m "README.md edited to avoid conflict"
+  369  git status
+  370  git merge master
+  371  git status
+  372  git branch
+  373  git log
+  374  git branch
+  375  git checkout master 
+  376  git branch
+  377  git remote add origin https://github.com/Gizmo10/git-basic-exercises
+  378  git remote
+  379  git branch -M main
+  380  git push -u origin main
+  381  git push -u origin history
+  382  git push -u origin milkshake-flavours
+  383  git remote
+  384  cd ../
+  385  pwd
+  386  ls -a
+  387  pwd
+  388  git clone https://github.com/Umuzi-org/a-repo-to-clone
+  389  ls -a
+  390  cd a-repo-to-clone/
+  391  ls -a
+  392  git branch
+  393  git log
+  394  git branch -a
+  395  git checkout project/git-basic-exercises
+  396  branch
+  397  git
+  398  git branch
+  399  git branch -a
+  400  ls -a
+  401  git remote
+  402  git remote -v
+  403  git pull
+  404  git checkout project/git-basic-exercises
+  405  git remote show origin
+  406  git pull
+  407  cd ..
+  408  ls -a
+  409  cd a-repo-to-clone/
+  410  ls -a
+  411  git rm README.md 
+  412  ls -a
+  413  git rm .gitignore 
+  414  ls -a
+  415  rm -rf .git/
+  416  ls -a
+  417  cd ..
+  418  pwd
+  419  ls -a
+  420  rmdir a-repo-to-clone/
+  421  ls -a
+  422  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  423  ls -a
+  424  cd a-repo-to-clone/
+  425  ls -a
+  426  git log
+  427  git status
+  428  git remote
+  429  git branch -a
+  430  git remote -v
+  431  git fetch origin
+  432  git branch -a
+  433  git checkout project/git-basic-exercises
+  434  git fectch origin
+  435  git fetch origin
+  436  git branch -a
+  437  git status
+  438  git log
+  439  git status
+  440  git pull
+  441  git branch -a
+  442  git checkout -b project/git-basic-exercises
+  443  branch
+  444  git branch
+  445  git branch -a
+  446  git remote -v
+  447  git status
+  448  git log
+  449  git branch
+  450  git log
+  451  cd ..
+  452  ls -a
+  453  cd git-basic-exercises/
+  454  git log
+  455  cd ..
+  456  pwd
+  457  mkdir this-will-be-another-repo
+  458  ls -a
+  459  cd this-will-be-another-repo/
+  460  git init
+  461  ls -a
+  462  pwd
+  463  touch README.md
+  464  ls -a
+  465  git status
+  466  git add README.md 
+  467  git commit -m "Blank README.md added:
+  468  q
+  469  q
+  470  pwd
+  471  pwd
+  472  git commit -m "Blank README.md added"
+  473  pwd
+  474  ls -a
+  475  cd this-will-be-another-repo/
+  476  pwd
+  477  ls -a
+  478  git status
+  479  git commit -m "README.md blank file added"
+  480  git status
+  481  git log
+  482  ls -a
+  483  git status
+  484  cd ..
+  485  ls -a
+  486  cd git-basic-exercises/
+  487  git log
+  488  git branch
+  489  ls -a
+  490  touch ignore-me.db
+  491  ls -a
+  492  git status
+  493  less README.md.save 
+  494  less README.md
+  495  nano .gitignore
+  496  git status
+  497  mkdir large-directory-that-should-be-local-only
+  498  ls -a
+  499  cd large-directory-that-should-be-local-only/
+  500  echo "Some random text should be here for this file" > readme.md
+  501  ls -a
+  502  cd ..
+  503  git status
+  504  nano .gitignore 
+  505  ls -a
+  506  git status
+  507  git add .gitignore
+  508  git commit -m "added .gitignore"
+  509  git status
+  510  git branch
+  511  git push
+  512  git status
+  513  pwd
+  514  ls -a
+  515  pwd
+  516  ls -a
+  517  cd ..
+  518  ls -a
+  519  cd this-will-be-another-repo/
+  520  ls -a
+  521  less README.md
+  522  git histore
+  523  git history
+  524  pwd
+  525  ls -a
+  526  mkdir test
+  527  ls -a
+  528  cd test
+  529  ls -a
+  530  pwd
+  531  git init
+  532  ls -a
+  533  git add .
+  534  ls -a
+  535  pwd
+  536  ls -a
+  537  cd C:\Users\HP\Desktop\Umuzi\Test
+  538  cd C:/Users/HP/Desktop/Umuzi/Test
+  539  ls -a
+  540  java --version
+  541  git --version
+  542  java --version
+  543  ls -a
+  544  cd .local
+  545  ls -a
+  546  cd share
+  547  ls -a
+  548  cd ~
+  549  ls -a
+  550  pwd
+  551  sudo snap
+  552  snap --version
+  553  ls -a
+  554  cd "C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin\idea64.exe"
+  555  cd /Desktop/Umuzi/Test
+  556  exit
+  557  pwd
+  558  ls -a
+  559  cd Documents
+  560  ls -a
+  561  cd 'My Pictures'
+  562  ls -a
+  563  cd Camera Roll
+  564  cd 'Camera Roll'
+  565  ls -a
+  566  cd /mnt
+  567  ls -a
+  568  /c/Users/HP
+  569  cd c/Users/HP
+  570  LS -A
+  571  ls -a
+  572  exit
+  573  git --version
+  574  java --version
+  575  ls -a
+  576  cd Desktop/Umuzi/Level-0-coding-exercises
+  577  ls -a
+  578  git init
+  579  git status
+  580  touch .gitignore
+  581  ls -a
+  582  git status
+  583  nano .gitignore 
+  584  git status
+  585  git add Task1
+  586  git add .gitignore
+  587  git status
+  588  git commit -m "Added the files .gitignore and Task1"
+  589  git status
+  590  ls -a
+  591  cd Task1
+  592  ls -a
+  593  git remote add origin https://github.com/Gizmo10/Level-0-coding-exercises.git
+  594  git remote
+  595  git branch -M main
+  596  git push -u origin main
+  597  pwd
+  598  ls -a
+  599  cd ..
+  600  ls -a
+  601  nano .gitignore 
+  602  ls -a
+  603  git status
+  604  git add .gitignore
+  605  git status
+  606  git commit -m "Modified .gitignore"
+  607  git status
+  608  git push
+  609  git push -u origin main
+  610  git status
+  611  ls a
+  612  ls -a
+  613  rm -fr .gitignore 
+  614  ls -a
+  615  rm -fr .git
+  616  rm -fr Task1
+  617  ls -a
+  618  cd ..
+  619  ls -a
+  620  rmdir Level-0-coding-exercises/
+  621  ls -a
+  622  mkdir Level-0-coding-exercises
+  623  ls -a
+  624  cd Level-0-coding-exercises/
+  625  git init
+  626  ls -a
+  627  mkdir Task1
+  628  ls -a
+  629  git status
+  630  nano .gitignore
+  631  ls -a
+  632  git status
+  633  cd Task1
+  634  ls -a
+  635  cd ..
+  636  ls -a
+  637  rm -fr Task1
+  638  ls -a
+  639  less .gitignore 
+  640  git status
+  641  git add .gitignore 
+  642  git status
+  643  git commit -m "Adding the .gitignore file"
+  644  git status
+  645  ls -a
+  646  cd Task1
+  647  ls -a
+  648  cd ..
+  649  ls -a
+  650  git rm Task1
+  651  rm -fr Task1/
+  652  ls -a
+  653  git status
+  654  mkdir Task1
+  655  ls -a
+  656  git status
+  657  cd Task1
+  658  ls -a
+  659  cd ..
+  660  git status
+  661  ls -a
+  662  git rm untitled
+  663  ls -a
+  664  git status
+  665  rm -fr untitled
+  666  ls -a
+  667  cd Task1
+  668  ls -a
+  669  cd ..
+  670  ls -a
+  671  rm -fr Task1
+  672  ls -a
+  673  less .gitignore 
+  674  less
+  675  less .gitignore 
+  676  git status
+  677  ls -a
+  678  rm -fr Task1/
+  679  ls -a
+  680  less
+  681  less .gitignore
+  682  nano .gitignore 
+  683  ls -a
+  684  git status
+  685  git add .gitignore 
+  686  git commit -m "Modified .gitignore"
+  687  ls -a
+  688  mkdir Task1
+  689  ls -a
+  690  git status
+  691  cd Task1/
+  692  ls -a
+  693  cd ..
+  694  less .gitignore
+  695  nano .gitignore 
+  696  git status
+  697  git add .gitignore 
+  698  git commit -m "Modified .gitignore again"
+  699  git status
+  700  ls -a
+  701  cd Task1
+  702  ls -a
+  703  cd ..
+  704  nano .gitignore 
+  705  git status
+  706  git remote add origin https://github.com/Gizmo10/Level-0-coding-exercises.git
+  707  git branch -M main
+  708  git push -u origin main
+  709  ls -a
+  710  git status
+  711  ls -a
+  712  git add Task1
+  713  git commit -m "Added folder for task 1"
+  714  ls -a
+  715  git push -u origin main
+  716  ls -a
+  717  pwd
+  718  ls -a
+  719  rm -fr Task1
+  720  ls -a
+  721  rm -fr .gitignore 
+  722  rm -fr .git
+  723  ls -a
+  724  cd ..
+  725  ls -a
+  726  rmdir Level-0-coding-exercises/
+  727  ls -a
+  728  cd ..
+  729  ls -a
+  730  cd Desktop/Umuzi
+  731  ls -a
+  732  mkdir Lesson-0-coding-exercises
+  733  ls -a
+  734  cd Lesson-0-coding-exercises/
+  735  git init
+  736  ls -a
+  737  git status
+  738  nano
+  739  ls -a
+  740  mkdir Task1
+  741  git status
+  742  ls -a
+  743  git status
+  744  ls -a
+  745  git status
+  746  cd Task1
+  747  ls -a
+  748  git status
+  749  cd ..
+  750  ls -a
+  751  cd .gitignore
+  752  nano .gitignore
+  753  ls -a
+  754  git status
+  755  git add .gitignore 
+  756  git status
+  757  git commit -m "Added .gitignore"
+  758  git status
+  759  ls -a
+  760  cd Task1
+  761  ls -a
+  762  git status
+  763  cd ..
+  764  ls -a
+  765  git status
+  766  git remote add origin https://github.com/Gizmo10/Level-0-coding-exercises.git
+  767  git branch -M main
+  768  git push -u origin main
+  769  ls -a
+  770  git status
+  771  cd Task1 
+  772  git status
+  773  cd ..
+  774  nano .gitignore 
+  775  git add .gitignore 
+  776  git commit -m "Modified .gitignore"
+  777  git status
+  778  git push
+  779  nano .gitignore 
+  780  git add .gitignore
+  781  git commit -m "Modified .gitignore"
+  782  git status
+  783  git push
+  784  git status
+  785  pwd
+  786  ls -a
+  787  git status
+  788  ls -a
+  789  cd ..
+  790  ls -a
+  791  git status
+  792  git add Task2/src/*
+  793  git commit -m "The class body is added"
+  794  git push -u origin firstAttemptAtProject 
+  795  git status
+  796  git add Task2/src/Task2.java 
+  797  git commit -m "Task completed"
+  798  git push -u origin firstAttemptAtProject 
+  799  git status
+  800  git branch
+  801  ls -a
+  802  mkdir Task3
+  803  ls -a
+  804  git status
+  805  cd ..
+  806  ls -a
+  807  git status
+  808  git add Task3/src/Task3.java 
+  809  git commit -m "The body of the class is added"
+  810  git status
+  811  git branch
+  812  git push -u origin firstAttemptAtProject 
+  813  git status
+  814  git add Task3/src/Task3.java 
+  815  git commit -m "Task complete"
+  816  git status
+  817  git push -u origin firstAttemptAtProject 
+  818  git status
+  819  git branch
+  820  exit
+  821  cd "C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
+  822  cd ~
+  823  pwd
+  824  ls -a
+  825  /mnt/c
+  826  cd /mnt/c
+  827  ls -a
+  828  cd Program Files (x86)
+  829  cd 'Program Files (x86)'
+  830  ls -a
+  831  cd VideoLAN
+  832  LS -A
+  833  ls -a
+  834  cd VLC
+  835  ls -a
+  836  cd vlc.exe
+  837  vlc C:/Users/HP/Desktop/VID_20211210_115521
+  838  sudo apt install vlc-bin
+  839  ls -s
+  840  Desktop/
+  841  cd Desktop
+  842  ls -a
+  843  pwd
+  844  ls -a
+  845  cd git-basic-exercises/
+  846  pwd
+  847  ls -a
+  848  git branch
+  849  git diff history
+  850  git status
+  851  ls -a
+  852  cd git-basic-exercises
+  853  ls -a
+  854  git status
+  855  ls -a
+  856  git rm README.md README.md.save 
+  857  rm -i README.md.save 
+  858  ;s -a
+  859  ls -a
+  860  git status
+  861  git branch
+  862  git branch -d history
+  863  git status
+  864  git push -u origin history
+  865  git push 
+  866  git push
+  867  git branch
+  868  git status
+  869  git diff milk-shake-flavours
+  870  git diff milkshake-flavours
+  871  git branch -d milkshake-flavours
+  872  git status
+  873  git branch
+  874  git push 
+  875  git pull
+  876  git status
+  877  ls -a
+  878  git status
+  879  ls -a
+  880  git status
+  881  git branch
+  882  git checkout main
+  883  git branch
+  884  git remote
+  885  git branch
+  886  git status
+  887  git checkout master
+  888  git branch
+  889  git status
+  890  ls -a
+  891  git checkout firstAttemptAtProject 
+  892  git status
+  893  git checkout master
+  894  git merge firstAttemptAtProject 
+  895  git status
+  896  git push -u origin main
+  897  git status
+  898  ls -a
+  899  cd src
+  900  ls -a
+  901  cd ..
+  902  git merge firstAttemptAtProject 
+  903  git push -u origin main
+  904  git push -u origin master
+  905  git branch
+  906  git pull
+  907  git status
+  908  git push
+  909  git pull
+  910  git status
+  911  git branch
+  912  git checkout main
+  913  git status
+  914  git merge master
+  915  git status
+  916  git push -u origin main
+  917  git status
+  918  git branch master
+  919  git branch
+  920  git checkout master
+  921  git status
+  922  git branch -d firstAttemptAtProject 
+  923  git push -u firstAttemptAtProject
+  924  git branch
+  925  git push
+  926  git status
+  927  git branch
+  928  git pull
+  929  git status
+  930  git checkout origin/
+  931  git status
+  932  git branch
+  933  git checkout main
+  934  git status
+  935  git pull
+  936  git branch
+  937  git checkout master
+  938  git remote
+  939  ls -a
+  940  git checkout main
+  941  ls -a
+  942  cd ..
+  943  ls -a
+  944  mkdir
+  945  mkdir Task4
+  946  ls -a
+  947  git status
+  948  git checkout continueFromTask4
+  949  git checkout -b  continueFromTask4
+  950  git branch
+  951  git status
+  952  ls -a
+  953  cd ..
+  954  git status
+  955  git branch
+  956  git status
+  957  git branch
+  958  git add Task5/src/Task5.java 
+  959  git status
+  960  git commit -m "Method complete"
+  961  git status
+  962  git push -u origin continueFromTask4 
+  963  git status
+  964  git add Task5/src/Task5.java 
+  965  git commit -m "main method" -m "The method to drive the function"
+  966  git status
+  967  git branch
+  968  git push -u origin continueFromTask4 
+  969  git status
+  970  git branch
+  971  git status
+  972  git add Task5/src/Task5.java 
+  973  git status
+  974  git commit -m "The task is tested and complete"
+  975  git status
+  976  git push -u origin continueFromTask4 
+  977  git status
+  978  ls -a
+  979  mkdir Task6
+  980  ls -a
+  981  git status
+  982  git branch
+  983  git status
+  984  cd ..
+  985  git branch
+  986  ls -a
+  987  git status
+  988  git add Task6/src/Task6.java 
+  989  git branch
+  990  git status
+  991  git commit -m "The first version works" -m "The version which takes three parameters"
+  992  git status
+  993  git push -u origin continueFromTask4 
+  994  git status
+  995  git branch
+  996  git status
+  997  git add Task6/src/Task6.java 
+  998  git commit -m "First version revised1"
+  999  git status
+ 1000  git push -u origin continueFromTask4 
+ 1001  pwd
+ 1002  ls -a
+ 1003  git status
+ 1004  git branch
+ 1005  git checkout master
+ 1006  git branch
+ 1007  git merge continueFromTask4 
+ 1008  git status
+ 1009  git push -u origin main
+ 1010  git branch
+ 1011  git checkout main
+ 1012  git status
+ 1013  git merge continueFromTask4 
+ 1014  git status
+ 1015  git push -u origin main
+ 1016  git status
+ 1017  git branch
+ 1018  git checkout master 
+ 1019  git status
+ 1020  git push -u origin main
+ 1021  git status
+ 1022  git push
+ 1023  git status
+ 1024  git branch
+ 1025  git branch -d continueFromTask4 
+ 1026  git status
+ 1027  git remote
+ 1028  git branch
+ 1029  git pull
+ 1030  git status
+ 1031  git checkout main
+ 1032  git pull
+ 1033  git status
+ 1034  git branch
+ 1035  git checkout master 
+ 1036  git status
+ 1037  ls -a
+ 1038  git branch
+ 1039  git status
+ 1040  git branch
+ 1041  git checkout -b taskSixVersion2
+ 1042  git branch
+ 1043  git status
+ 1044  git push -u origin taskSixVersion2 
+ 1045  git status
+ 1046  git branch
+ 1047  git status
+ 1048  git branch
+ 1049  git add Task6/src/Task6.java 
+ 1050  git commit -m "Task6 with variable parameters done"
+ 1051  git push -u origin taskSixVersion2 
+ 1052  git status
+ 1053  git branch
+ 1054  git status
+ 1055  git checkout master
+ 1056  git merge taskSixVersion2 
+ 1057  git status
+ 1058  git push -u origin main
+ 1059  git branch
+ 1060  git status
+ 1061  git checkout main
+ 1062  git merge taskSixVersion2 
+ 1063  git status
+ 1064  git push -u origin main
+ 1065  git status
+ 1066  git branch
+ 1067  git checkout master
+ 1068  git push -u origin main
+ 1069  git status
+ 1070  git merge main
+ 1071  git diff main
+ 1072  git status
+ 1073  git branch
+ 1074  git branch -b taskSixVersion2 
+ 1075  git branch
+ 1076  git checkout main
+ 1077  git branch -d taskSixVersion2 
+ 1078  git branch
+ 1079  git push -u origin main
+ 1080  git pull
+ 1081  git checkout master 
+ 1082  git pull
+ 1083  git push
+ 1084  git branch
+ 1085  git pull
+ 1086  git checkout main
+ 1087  git checkout master
+ 1088  git merge main
+ 1089  git status
+ 1090  git branch
+ 1091  git status
+ 1092  ls -a
+ 1093  pwd
+ 1094  mkdir Task7
+ 1095  ls -a
+ 1096  git status
+ 1097  cd ..
+ 1098  cd Task8
+ 1099  ls -a
+ 1100  cd ..
+ 1101  ls -a
+ 1102  git status
+ 1103  git branch
+ 1104  git status
+ 1105  git branch
+ 1106  git add Task8/src/Task8.java 
+ 1107  git commit -m "The task is complete"
+ 1108  git status
+ 1109  git push -u origin startFromTask7 
+ 1110  git status
+ 1111  git checkout main
+ 1112  git merge startFromTask7 
+ 1113  git status
+ 1114  git push -u origin main 
+ 1115  git status
+ 1116  git checkout master 
+ 1117  git status
+ 1118  git merge main
+ 1119  git status
+ 1120  git merge startFromTask7 
+ 1121  git status
+ 1122  git branch
+ 1123  git pull
+ 1124  git status
+ 1125  git push
+ 1126  git status
+ 1127  git pull
+ 1128  git status
+ 1129  git pull
+ 1130  git status
+ 1131  git checkout startFromTask7 
+ 1132  ls -a
+ 1133  pwd
+ 1134  git branch
+ 1135  mkdir Task9
+ 1136  git status
+ 1137  ls -a
+ 1138  cd ..
+ 1139  git branch
+ 1140  git status
+ 1141  git branch
+ 1142  git status
+ 1143  git add Task9/src/Task9.java 
+ 1144  git commit -m "Task complete with tests"
+ 1145  git push -u origin startFromTask7 
+ 1146  git status
+ 1147  git checkout main
+ 1148  git merge startFromTask7 
+ 1149  git push -u origin main
+ 1150  git status
+ 1151  git branch
+ 1152  git checkout master
+ 1153  git status
+ 1154  git merge main
+ 1155  git merge startFromTask7 
+ 1156  git status
+ 1157  git push
+ 1158  git status
+ 1159  git diff main
+ 1160  git branch
+ 1161  git branch -d startFromTask7 
+ 1162  git status
+ 1163  git pull
+ 1164  git status
+ 1165  git checkout main
+ 1166  git pull
+ 1167  git status
+ 1168  git branch
+ 1169  git push -u main
+ 1170  git push -u origin main
+ 1171  ls -a
+ 1172  git status
+ 1173  git checkout master 
+ 1174  git branch
+ 1175  git status
+ 1176  pwd
+ 1177  ls -a
+ 1178  cd git-basic-exercises/
+ 1179  git status
+ 1180  git branch
+ 1181  git log
+ 1182  git checkout e322f78c0821116846dffd7e4b1560bf2bdd2528
+ 1183  git branch
+ 1184  git status
+ 1185  git log
+ 1186  git branch
+ 1187  git checkout main
+ 1188  git branch
+ 1189  git history
+ 1190  history
+ 1191  ls -a
+ 1192  cd ..
+ 1193  ls -a
+ 1194  cd git-basic-exercises/
+ 1195  ls -a
+ 1196  git log
+ 1197  cd ..
+ 1198  ls -a
+ 1199  rm -i git-basic-exercises/
+ 1200  cd git-basic-exercises/
+ 1201  ls -a
+ 1202  rm -i *.md
+ 1203  ls -a
+ 1204  git status
+ 1205  rm history.txt 
+ 1206  rm -i ignore-me.db 
+ 1207  git rm large-directory-that-should-be-local-only/
+ 1208  ls -a
+ 1209  rm -i .gitignore 
+ 1210  rm -i .git
+ 1211  git rm .git
+ 1212  ls -a
+ 1213  rm .git
+ 1214  rmdir .git
+ 1215  rm -fr .git
+ 1216  ls -a
+ 1217  rm -fr large-directory-that-should-be-local-only/
+ 1218  ls -a
+ 1219  cd ..
+ 1220  ls -a
+ 1221  rmdir git-basic-exercises/
+ 1222  ls -a
+ 1223  ls =a
+ 1224  ls -a
+ 1225  mkdir git-basic-exercises
+ 1226  ls -a
+ 1227  cd git-basic-exercises/
+ 1228  ls -a
+ 1229  git init
+ 1230  ls -a
+ 1231  git status
+ 1232  touch README.md
+ 1233  ls -a
+ 1234  git status
+ 1235  git log
+ 1236  git add README.md 
+ 1237  git status
+ 1238  git restore --staged README.md
+ 1239  git rm --cached README.md 
+ 1240  git status
+ 1241  git add README.md 
+ 1242  git commit -m "initial commit"
+ 1243  git log
+ 1244  q
+ 1245  nano README.md 
+ 1246  cat README.md 
+ 1247  git status
+ 1248  git add README.md 
+ 1249  git commit -m "second commit"
+ 1250  git status
+ 1251  nano README.md 
+ 1252  git add README.md 
+ 1253  git status
+ 1254  git commit -m "third commit"
+ 1255  git status
+ 1256  git log
+ 1257  git checkout 9d023799028594a3ca23bf21a11ae24b26b3bfef
+ 1258  cat README.md 
+ 1259  git checkout master 
+ 1260  git status
+ 1261  git branch milkshake-flavours
+ 1262  git branch
+ 1263  git checkout milkshake-flavours 
+ 1264  git branch
+ 1265  git checkout master
+ 1266  git branch
+ 1267  git checkout milkshake-flavours 
+ 1268  nano milkshakes.md
+ 1269  git status
+ 1270  git add milkshakes.md 
+ 1271  git commit -m "added initial flavours"
+ 1272  git status
+ 1273  git log
+ 1274  git checkout master
+ 1275  git log
+ 1276  git branch
+ 1277  git branch "history"
+ 1278  git branch
+ 1279  git checkout history 
+ 1280  git log
+ 1281  git branch
